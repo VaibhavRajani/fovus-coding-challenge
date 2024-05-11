@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fovus-dev-5dcf9-authRole",
+      "UnauthRoleArn": "arn:aws:iam::637423603990:role/amplify-fovus-dev-5dcf9-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::637423603990:role/amplify-fovus-dev-5dcf9-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-fovus-dev-5dcf9-deployment",
+      "UnauthRoleName": "amplify-fovus-dev-5dcf9-unauthRole",
+      "StackName": "amplify-fovus-dev-5dcf9",
+      "StackId": "arn:aws:cloudformation:us-east-2:637423603990:stack/amplify-fovus-dev-5dcf9/24713de0-0f56-11ef-a23c-0a67e70cf4dd",
+      "AmplifyAppId": "d23kam955crdjk"
+    }
+  }
+}
