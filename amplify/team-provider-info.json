@@ -10,6 +10,14 @@
       "StackName": "amplify-fovus-dev-5dcf9",
       "StackId": "arn:aws:cloudformation:us-east-2:637423603990:stack/amplify-fovus-dev-5dcf9/24713de0-0f56-11ef-a23c-0a67e70cf4dd",
       "AmplifyAppId": "d23kam955crdjk"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d23kam955crdjk",
+          "type": "manual"
+        }
+      }
     }
   }
 }

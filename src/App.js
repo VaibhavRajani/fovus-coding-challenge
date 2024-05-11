@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { useState } from "react";
 
@@ -6,17 +5,6 @@ function App() {
   const [file, setFile] = useState(null);
   const [inputText, setInputText] = useState("");
   const [isLoading, setLoading] = useState(false);
-  const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [modalMessage, setModalMessage] = useState("");
-
-  const openModal = (message) => {
-    setModalMessage(message);
-    setModalIsOpen(true);
-  };
-
-  const closeModal = () => {
-    setModalIsOpen(false);
-  };
 
   const handleFileChange = (event) => {
     setFile(event.target.files[0]);
@@ -48,7 +36,7 @@ function App() {
 
       const data = await response.json();
       console.log(data);
-      const { uploadUrl, fileId, inputFilePath } = data;
+      const { uploadUrl } = data;
 
       const result = await fetch(uploadUrl, {
         method: "PUT",
